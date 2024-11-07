@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:voice_ui/screens/infomation_search/components/information_search_buttons_row_widget.dart';
-import 'package:voice_ui/screens/infomation_search/components/time_and_place_widget.dart';
-import 'package:voice_ui/screens/infomation_search/components/time_different_widget.dart';
+import 'package:voice_ui/widget/infomation_search/components/information_search_buttons_row_widget.dart';
+import 'package:voice_ui/widget/infomation_search/components/time_and_place_widget.dart';
+import 'package:voice_ui/widget/infomation_search/components/time_different_widget.dart';
 
 class InfomationSearchScreen extends StatelessWidget {
   const InfomationSearchScreen({super.key});

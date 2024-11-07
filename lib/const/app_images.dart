@@ -6,4 +6,5 @@ class AppImages {
   static String sunny = "$basePath/sunny.png";
   static String youtubeExample = "$basePath/youtube_example.png";
   static String airPurifier = "$basePath/air_purifier.png";
+  static String rain = "$basePath/rain.png";
 }

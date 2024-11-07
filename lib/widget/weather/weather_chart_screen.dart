@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:voice_ui/const/app_color.dart';
-import 'package:voice_ui/screens/weather/components/weather_chart_widget.dart';
+import 'package:voice_ui/widget/weather/components/weather_chart_widget.dart';
+import 'package:voice_ui/widget/weather/components/weather_forecast_widget.dart';
 
 class WeatherChartScreen extends StatefulWidget {
   const WeatherChartScreen({super.key});
@@ -42,6 +43,13 @@ class _WeatherChartScreenState extends State<WeatherChartScreen> {
               ChartPoint(x: 10, y: 6),
               ChartPoint(x: 11, y: 20),
             ],
+          ),
+          SizedBox(
+            height: 126.h,
+          ),
+          const WeatherForecast(),
+          SizedBox(
+            height: 126.h,
           ),
         ],
       ),

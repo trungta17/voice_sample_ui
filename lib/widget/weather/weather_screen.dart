@@ -5,7 +5,7 @@ import 'package:plover/plover.dart';
 import 'package:voice_ui/const/app_color.dart';
 import 'package:voice_ui/const/app_images.dart';
 import 'package:voice_ui/const/app_text_stype.dart';
-import 'package:voice_ui/screens/weather/components/device_info_widget.dart';
+import 'package:voice_ui/widget/weather/components/device_info_widget.dart';
 
 class WeatherScreen extends StatefulWidget {
   const WeatherScreen({super.key});

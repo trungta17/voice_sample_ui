@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:voice_ui/const/app_color.dart';
-import 'package:voice_ui/screens/result/components/cities_carousel_widget.dart';
-import 'package:voice_ui/screens/result/components/movie_carousel_widget.dart';
-import 'package:voice_ui/screens/result/components/result_tabs_widget.dart';
+import 'package:voice_ui/widget/result/components/cities_carousel_widget.dart';
+import 'package:voice_ui/widget/result/components/movie_carousel_widget.dart';
+import 'package:voice_ui/widget/result/components/result_tabs_widget.dart';
 
 class ResultScreen extends StatefulWidget {
   const ResultScreen({super.key});

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:plover/plover.dart';
-import 'package:voice_ui/screens/infomation_search/infomation_search_screen.dart';
-import 'package:voice_ui/screens/result/result_screen.dart';
-import 'package:voice_ui/screens/weather/weather_chart_screen.dart';
-import 'package:voice_ui/screens/weather/weather_screen.dart';
+import 'package:voice_ui/widget/infomation_search/infomation_search_screen.dart';
+import 'package:voice_ui/widget/result/result_screen.dart';
+import 'package:voice_ui/widget/weather/weather_chart_screen.dart';
+import 'package:voice_ui/widget/weather/weather_screen.dart';
 
 // void main() {
 //   runApp(const MyApp());
